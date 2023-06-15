@@ -2,6 +2,7 @@ using Podcast.Infrastructure.Http;
 
 namespace Podcast.API.Routes;
 
+// add the streaming
 public static class LiveStreamApi
 {
     public static RouteGroupBuilder MapLiveStreamApi(this RouteGroupBuilder group)
